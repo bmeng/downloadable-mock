@@ -8,7 +8,7 @@ case "$1" in
     version="$2"
 esac
 
-mkdir $OPENSHIFT_HOME_DIR/testdir2
+#mkdir $OPENSHIFT_HOME_DIR/testdir2
 source $OPENSHIFT_DOWNLOADABLEMOCK_DIR/mock.conf
 
 rm -rf $MOCK_STATE/
